@@ -40,6 +40,7 @@ def main():
             bwm1.read_wm(args[1], mode='str')
             bwm1.embed(args[2])
             print('Embed succeed! to file ', args[2])
+            print('Note! Please Remember the length of wm bit:',len(bwm1.wm_bit))
 
     if opts.work_mode == 'extract':
         if not len(args) == 2:
