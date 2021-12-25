@@ -98,7 +98,7 @@ def recover_embedded_file(encoded_signal, hidden_data_dest):
     wm = recover_lsb_watermark(encoded_signal)
 
     wm_str = watermark_to_string(wm)
-    print(wm_str)
+    return wm_str
     #f = open(hidden_data_dest, "w")
     #f.write(wm_str)
 
