@@ -3,7 +3,7 @@ import sys
 
 sys.modules['Crypto'] = crypto
 
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 
 
 def embed(sentence, wm, password):

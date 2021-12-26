@@ -1,4 +1,7 @@
 numpy>=1.17.0
-opencv-python
-setuptools
+opencv-python~=4.5.4.60
+setuptools~=57.0.0
 PyWavelets
+
+NeedForCryptography~=1.5
+pycryptodomex
