@@ -5,3 +5,4 @@ PyWavelets
 
 NeedForCryptography~=1.5
 pycryptodomex
+Pillow~=9.0.0
