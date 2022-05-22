@@ -165,7 +165,7 @@ python -m blind_watermark.cli_tools --embed --strict -p 1x1 examples/pic/ori_img
 python -m blind_watermark.cli_tools --extract --strict -p 1x1 --wm_shape 128x128 examples/output/embedded.png examples/output/wm_extract.png
 
 python -m blind_watermark.cli_tools --embed -s -p 1x1 examples/pic/ori_img.jpg Hello,World examples/output/embedded_str.png
-python -m blind_watermark.cli_tools --extract -s -p 1x1 --wm_shape 11 examples/output/embedded_str.png examples/output/wm_extract.txt
+python -m blind_watermark.cli_tools --extract -s -p 1x1 --wm_shape 87 examples/output/embedded_str.png examples/output/wm_extract.txt
 
 python -m blind_watermark.cli_tools --embed --text 绝密：今晚9点老地方见 20190808 这句话有水印，你能提取出来吗？
 python -m blind_watermark.cli_tools --extract --text 20190808
