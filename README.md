@@ -1,18 +1,22 @@
 # blind-watermark
 
-支持在图片中插入盲水印。  
-新增支持在文字、语音中插入盲水印。  
-新增支持在bash中添加string水印。  
-新增单元测试。  
-添加测试数据。
+Supports inserting blind watermarks into pictures.
+
+Add support for inserting blind watermarks into text and audio.
+
+Add support for inserting string watermarks in bash.
+
+Add unit tests.
+
+Add test data.
 
 # install
-对于使用者：
+To Users：
 ```bash
 pip install blind-watermark
 ```
 
-对于开发者:
+To Developers:
 ```bach
 git clone git@github.com:guofei9987/blind_watermark.git
 cd blind_watermark
