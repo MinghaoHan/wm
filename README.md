@@ -13,12 +13,7 @@ Add test data.
 # install
 To Users：
 ```bash
-pip install blind-watermark
-```
-
-To Developers:
-```bach
-git clone git@github.com:guofei9987/blind_watermark.git
+git clone https://github.com/MinghaoHan/wm.git
 cd blind_watermark
 pip install .
 ```
@@ -32,28 +27,6 @@ cd examples
 blind_watermark --embed -p 1x1 pic/ori_img.jpg pic/watermark.png output/embedded.png
 # extract watermark from image:
 blind_watermark --extract -p 1x1 --wm_shape 128x128 output/embedded.png output/wm_extract.png
-```
-
-### Use in Python
-How to embed watermark:
-```python
-from blind_watermark import WaterMark
-
-bwm1 = WaterMark(password_wm=1, password_img=1)
-# read original image
-bwm1.read_img('pic/ori_img.jpg')
-# read watermark
-bwm1.read_wm('pic/watermark.png')
-# embed
-bwm1.embed('output/embedded.png')
-```
-
-
-How to extract watermark
-```python
-bwm1 = WaterMark(password_wm=1, password_img=1)
-# notice that wm_shape is necessary
-bwm1.extract(filename='output/embedded.png', wm_shape=(128, 128), out_wm_name='output/extracted.png', )
 ```
 
 ## demos:
